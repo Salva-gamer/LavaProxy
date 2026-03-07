@@ -1,0 +1,55 @@
+# Configuración de Nodos Lavalink para el Proxy de Luis
+
+puerto: "3001"
+check_delay: 300 # Tiempo en segundos entre comprobaciones
+
+nodos:
+  - host: "lavalink.jirayu.net"
+    port: "13592"
+    password: "youshallnotpass"
+    secure: false
+
+  - host: "lava-v4.ajieblogs.eu.org"
+    port: "443"
+    password: "https://dsc.gg/ajidevserver"
+    secure: true
+
+  - host: "lavalinkv4.serenetia.com"
+    port: "443"
+    password: "https://dsc.gg/ajidevserver"
+    secure: true
+
+  - host: "lavalinkv3.serenetia.com"
+    port: "443"
+    password: "https://dsc.gg/ajidevserver"
+    secure: true
+
+  - host: "lavalink.serenetia.com"
+    port: "443"
+    password: "https://dsc.gg/ajidevserver"
+    secure: true
+
+  - host: "lava-v3.millohost.my.id"
+    port: "443"
+    password: "https://discord.gg/mjS5J2K3ep"
+    secure: true
+
+  - host: "lavahatry4.techbyte.host"
+    port: "3000"
+    password: "naig.is-a.dev"
+    secure: false
+
+  - host: "lavalinkv4.serenetia.com"
+    port: "80"
+    password: "https://dsc.gg/ajidevserver"
+    secure: false
+
+  - host: "sg1-nodelink.nyxbot.app"
+    port: "3000"
+    password: "nyxbot.app/support"
+    secure: false
+
+  - host: "sg2-nodelink.nyxbot.app"
+    port: "3000"
+    password: "nyxbot.app/support"
+    secure: false
