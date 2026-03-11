@@ -82,7 +82,7 @@ func main() {
 	}()
 
 	// 3. Configurar las rutas y arrancar el servidor HTTP
-	http.HandleFunc("/get-node", api.GetNodeHandler)
+	http.HandleFunc("/", api.GetNodeHandler)
 	http.HandleFunc("/up-time", api.UpTimeHandler)
 	
 	port := ":" + config.Puerto
